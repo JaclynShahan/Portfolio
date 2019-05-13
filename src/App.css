@@ -1,0 +1,109 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.backgroundClass {
+background: linear-gradient(270deg, #1d5b8e, #311f96, #21747d, #7d213d, #b9243d);
+background-size: 1000% 1000%;
+width: 100vw;
+height: 95vh;
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.topnav {
+  background: #3e7574;
+  background: -webkit-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+  background: -moz-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+  background: -o-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+  background: linear-gradient(to bottom right, #4d4e4e 0%, #272c2a 100%);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.topnav:active {
+  background-color: rgb(26, 155, 214);
+  color:rgb(141, 231, 227);
+}
+.topnav a:hover {
+  background-color:  rgb(34, 143, 194);
+  color: rgb(252, 240, 240);
+}
+
+.bottomnav {
+  background: #3e7574;
+  background: -webkit-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+  background: -moz-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+  background: -o-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+  background: linear-gradient(to bottom right, #4d4e4e 0%, #272c2a 100%);
+  overflow: hidden;
+  height: 5vh;
+}
+
+/* Style the links inside the navigation bar */
+.bottomnav a {
+  float: bottom;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
