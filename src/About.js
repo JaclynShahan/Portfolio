@@ -12,7 +12,7 @@ class About extends Component {
     render() {
         return (
             <div>
-<img className="img" src={require("./images/HomePic.jpg")}/>
+
             </div>
         )
     }
