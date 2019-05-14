@@ -1,3 +1,4 @@
+@import '~antd/dist/antd.css';
 .centerBody{
     height: 8vh;
     width: 70vw;
@@ -13,18 +14,25 @@
    padding-top: 25px;
    padding-bottom: 20px;
   }
+  .h3 {
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 2px;
+  }
 .h1 {
 
     font-family: fantasy;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     color: whitesmoke;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
-        align-items: center;
-        align-content: center;
+        align-items: left;
+        align-content: left;
     margin-top: 50px;
     
 }
@@ -40,7 +48,7 @@
         justify-content: space-around;
         align-items: center;
         align-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
     
 }
 .h4 {
@@ -54,7 +62,7 @@
         justify-content: space-around;
         align-items: center;
         align-content: center;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 .bottomnav {
     background: #3e7574;
@@ -95,6 +103,7 @@ animation: AnimationName 30s ease infinite;
     100%{background-position:0% 50%}
 }
 .topnav {
+   
     background: #3e7574;
     background: -webkit-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
     background: -moz-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
@@ -124,7 +133,7 @@ animation: AnimationName 30s ease infinite;
     color: rgb(252, 240, 240);
   }
   .sider {
-    
+      background-color: lightslategray;
       width: 20vw;
   }
 
@@ -141,12 +150,127 @@ animation: AnimationName 30s ease infinite;
   }
 
   .image {
-      height: 50%;
-      width: 50%;
-      margin-left: 25%;
+      height: 45%;
+      width: 45%;
+      margin-left: 28%;
+      margin-top: 20px;
   }
 
   .quote {
       height: 20%;
       width: 20%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column-gap: 90px;
+    grid-row-gap: 90px;
+    grid-row-start: 1;
+    grid-row-end: 14;
+    grid-template-columns: 200px 200px;
+    background-color: rgb(68, 82, 95);
+   
+  }
+  .item1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    
+  }
+
+  .item2 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 2;
+    height: 80px;
+    width: 90px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+  .item3 {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    height: 80px;
+    width: 95px;
+    margin-bottom: 25px;
+  }
+
+  .item4 {
+    grid-row: 4 / 5;
+    grid-column: 3 / 2;
+    height: 80px;
+    width: 90px;
+    margin-right: 20px;
+  }
+
+  .item5 {
+      grid-row: 5 / 6;
+      grid-column: 3 / 3;
+      height: 80px;
+      width: 90px;
+  }
+
+  .item6 {
+      grid-row: 6 / 7;
+      grid-column: 4 / 2;
+      height: 80px;
+      width: 90px;
+      margin-top: 25px;
+      margin-right: 20px;
+  }
+
+  .item7 {
+      grid-row: 7 / 8;
+      grid-column: 4 / 3;
+      height: 80px;
+      width: 90px;
+  }
+
+  .item8 {
+      grid-row: 8 / 9;
+      grid-column: 5 / 2;
+      height: 80px;
+      width: 90px;
+      margin-top: 25px;
+      margin-right: 20px;
+  }
+
+  .item9 {
+      grid-row: 9 / 10;
+      grid-column: 5 / 3;
+      height: 80px;
+      width: 90px;
+  }
+
+  .item10 {
+      grid-row: 10 / 11;
+      grid-column: 6 / 2;
+      height: 80px;
+      width: 90px;
+      margin-top: 25px;
+      margin-right: 15px;
+
+  }
+
+  .item11 {
+      grid-row: 11 / 12;
+      grid-column: 6 / 3;
+      height: 80px;
+      width: 90px;
+  }
+
+  .item12 {
+      grid-row: 12 / 13;
+      grid-column: 7 / 2;
+      height: 80px;
+      width: 90px;
+      margin-top: 20px;
+
+  }
+
+  .item13 {
+      grid-row: 13 / 14;
+      grid-column: 7 / 3;
+      height: 80px;
+      width: 90px;
   }

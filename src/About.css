@@ -1,0 +1,30 @@
+@import '~antd/dist/antd.css';
+.backgroundClass {
+    background: linear-gradient(270deg, #1d5b8e, #311f96, #21747d, #7d213d, #b9243d);
+    background-size: 1000% 1000%;
+    width: 50vw;
+    
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    }
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+    .images {
+        height: 70vh;
+        width: 50vw;
+    }
