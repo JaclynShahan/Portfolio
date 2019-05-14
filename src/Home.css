@@ -1,17 +1,6 @@
 .centerBody{
-    display: column;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-left: 200px;
-    margin-right: 100px;
-    margin-top: 250px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 40%;
-    height: 60%;
+    height: 8vh;
+    width: 70vw;
 
     
 }
@@ -24,7 +13,140 @@
    padding-top: 25px;
    padding-bottom: 20px;
   }
-.h1, h4 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+.h1 {
+
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    margin-top: 50px;
+    
 }
+.h2 {
+
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold italic;
+    color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    margin-top: 50px;
+    
+}
+.h4 {
+    font-family: fantasy;
+    font-size: 10px;
+    font-weight: italic;
+    color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    margin-top: 50px;
+}
+.bottomnav {
+    background: #3e7574;
+    background: -webkit-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+    background: -moz-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+    background: -o-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+    background: linear-gradient(to bottom right, #4d4e4e 0%, #272c2a 100%);
+    overflow: hidden;
+    height: 10vh;
+    margin-top: 100px;
+
+    
+  }
+
+
+.backgroundClass {
+background: linear-gradient(270deg, #1d5b8e, #311f96, #21747d, #7d213d, #b9243d);
+background-size: 1000% 1000%;
+width: 50vw;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.topnav {
+    background: #3e7574;
+    background: -webkit-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+    background: -moz-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+    background: -o-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
+    background: linear-gradient(to bottom right, #4d4e4e 0%, #272c2a 100%);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav:active {
+    background-color: rgb(26, 155, 214);
+    color:rgb(141, 231, 227);
+  }
+  .topnav a:hover {
+    background-color:  rgb(34, 143, 194);
+    color: rgb(252, 240, 240);
+  }
+  .sider {
+    
+      width: 20vw;
+  }
+
+  .content {
+      width: 60vw;
+      height: 60vh;
+  }
+  .p {
+      color: whitesmoke;
+      font-family: fantasy;
+      font-weight: bold;
+      font-size: 30px;
+
+  }
+
+  .image {
+      height: 50%;
+      width: 50%;
+      margin-left: 25%;
+  }
+
+  .quote {
+      height: 20%;
+      width: 20%;
+  }

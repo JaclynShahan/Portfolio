@@ -20,24 +20,17 @@ class App extends Component {
   
   return (
     <div>
-    <div className="backgroundClass">
+ 
 
-      <div className="topnav" id="myTopnav"> 
-        <Link to='/Contact'>Contact</Link>
-        <Link to='/Projects'>Projects</Link>
-        <Link to='/About'>About</Link>
-        <Link to='/'>Home</Link>
-      </div>
+    
 
       {router}
       
-      </div>
+     
     
        
       
-      <footer className="bottomnav" id="myTopnav">
-
-      </footer>
+     
 
     </div>
    
