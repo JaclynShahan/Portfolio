@@ -1,0 +1,36 @@
+@import '~antd/dist/antd.css';
+.form {
+  position: relative;
+  display: inline-block;
+  width: 70vw;
+  height: 70vh;
+  box-sizing: border-box;
+  padding: 30px 25px;
+  background-color: rgb(183, 211, 243);
+  border-radius: 40px;
+ margin-top: 60px;
+ margin-left: 15%;
+}
+
+.inputName {
+    width: 40%;
+    margin-bottom: 30px;
+}
+.inputBox {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+.message {
+    position: relative;
+    display: inline-block;
+    width: 35vw;
+    height: 20vh;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    background-color: white;
+}

@@ -247,7 +247,7 @@ animation: AnimationName 20s ease infinite;
       grid-column: 6 / 2;
       height: 80px;
       width: 90px;
-      margin-top: 25px;
+      margin-top: 15px;
       margin-right: 15px;
 
   }
@@ -257,6 +257,7 @@ animation: AnimationName 20s ease infinite;
       grid-column: 6 / 3;
       height: 80px;
       width: 90px;
+      margin-right: 5px;
   }
 
   .item12 {
