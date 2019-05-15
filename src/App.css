@@ -32,8 +32,8 @@
     transform: rotate(360deg);
   }
 }
-.backgroundClass {
-background: linear-gradient(270deg, #1d5b8e, #311f96, #21747d, #7d213d, #b9243d);
+/* .backgroundClass {
+background: linear-gradient(270deg, #0f5e9c, #2389da, #1ca3ec, #5abcd8, #74ccf4);
 background-size: 1000% 1000%;
 width: 100vw;
 height: 95vh;
@@ -55,7 +55,7 @@ animation: AnimationName 30s ease infinite;
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
-}
+} */
 .topnav {
   background: #3e7574;
   background: -webkit-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
@@ -107,3 +107,6 @@ animation: AnimationName 30s ease infinite;
   font-size: 17px;
 }
 
+.clearColor {
+  background-color: rgba(0,0,0,0);
+}

@@ -21,9 +21,9 @@ class Home extends Component {
           }
         return(
         
-    <Layout>
-   <Layout>
-        <Sider className="grid-container">
+    <Layout className="clearColor">
+   <Layout className="clearColor">
+        <Sider className="grid-container clearColor" >
             <Divider/>
         <p className= "h3">Skillset:</p>
         <Divider />
@@ -42,7 +42,7 @@ class Home extends Component {
         <img className="item13" src="https://cdn.iconscout.com/icon/free/png-256/rethinkdb-283025.png"/>
 
         </Sider>
-        <Content className="backgroundClass">
+        <Content className="clearColor">
         <br></br>
         <Divider />
         <h1 className="h1">Hi, I'm Jaclyn...</h1>
@@ -52,7 +52,6 @@ class Home extends Component {
         <img className="image" src="https://www.memecreator.org/static/images/memes/4571793.jpg"/>
             </Content>
       </Layout>
-      
     </Layout>
 
 

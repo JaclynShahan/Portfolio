@@ -22,8 +22,8 @@ class App extends Component {
    } = Layout;
   
   return (
-    <div>
-  <Layout>
+    <div className="backgroundClass">
+  <Layout className="clearColor">
       <Header className="topnav">
         <Link to='/Contact'>Contact</Link>
         <Link to='/Projects'>Projects</Link>

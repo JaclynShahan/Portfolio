@@ -79,13 +79,13 @@
 
 
 .backgroundClass {
-background: linear-gradient(270deg, #1d5b8e, #311f96, #21747d, #7d213d, #b9243d);
+background: linear-gradient(270deg, #0f5e9c, #2389da, #1ca3ec, #5abcd8, #74ccf4);
 background-size: 1000% 1000%;
-width: 50vw;
-
--webkit-animation: AnimationName 30s ease infinite;
--moz-animation: AnimationName 30s ease infinite;
-animation: AnimationName 30s ease infinite;
+width: 100vw;
+height:100vh;
+-webkit-animation: AnimationName 20s ease infinite;
+-moz-animation: AnimationName 20s ease infinite;
+animation: AnimationName 20s ease infinite;
 }
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
@@ -170,9 +170,9 @@ animation: AnimationName 30s ease infinite;
     grid-row-start: 1;
     grid-row-end: 14;
     grid-template-columns: 200px 200px;
-    background-color: rgb(68, 82, 95);
-   
-  }
+    background-color: rgba(14, 14, 27, 0.664)
+}
+  
   .item1 {
     grid-row: 1 / 2;
     grid-column: 1 / 3;

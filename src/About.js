@@ -13,8 +13,10 @@ class About extends Component {
    render() {
           const { dotPosition } = this.state;
         return (
+            <div className="backgroundClass">
+
             
-            <Carousel  dotPosition={dotPosition}>
+            <Carousel className="carousel" dotPosition={dotPosition}>
             <div>
               <img className="images" src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/60150255_10218163437853379_8579273649947672576_n.jpg?_nc_cat=103&_nc_ht=scontent-dfw5-2.xx&oh=241e6e21a0d9a70441e8d212092b93a7&oe=5D5A55EA" />
             </div>
@@ -28,6 +30,7 @@ class About extends Component {
               <img className="images" src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/56214361_10217858761556662_5831365101659095040_n.jpg?_nc_cat=111&_nc_ht=scontent-dfw5-2.xx&oh=b64229ac1102374a0ee31a0d136776a8&oe=5D51DB61"/>
             </div>
           </Carousel>
+         </div>
         )
     }
 }
