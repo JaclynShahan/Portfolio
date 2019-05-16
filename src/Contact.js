@@ -33,6 +33,9 @@ class Contact extends Component {
                     <a href="https://github.com/JaclynShahan" target="_blank">
                     <img className="imageSize" src={require("./images/GitHubIcon.jpg")}/>
                     </a>
+                    <a href="https://www.linkedin.com/in/jaclyn-shahan-68a160138/" target="_blank">
+                    <img className="imageLinkedIn" src={require("./images/LinkedInIcon.png")}/>
+                    </a>
                 </footer>
                     
                 </form>

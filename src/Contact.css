@@ -66,4 +66,13 @@
     .imageSize {
         width: 60px;
         height: 50px;
+        margin-bottom: 10px;
+    }
+
+
+    .imageLinkedIn {
+        width: 80px;
+        height: 50px;
+       margin-bottom: 10px;
+
     }
