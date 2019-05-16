@@ -16,9 +16,9 @@ class Contact extends Component {
             <div>
                 <form className="form">
                 <header>
-                    <h1>Please feel free to contact me</h1>
+                    <h1>Please feel free to contact me: </h1>
                     <Divider/>
-                    <h3>Enter your info below to contact me. All messages get immediatly sent to my inbox.</h3>
+                    <h3>Enter your info below to contact me. All messages get immediatly sent to my inbox at Jaclyndshahan@gmail.com</h3>
                     <Divider/>
                 </header>
                 <div className="inputBox">
