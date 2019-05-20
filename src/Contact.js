@@ -16,7 +16,14 @@ class Contact extends Component {
             <div>
                 <form className="form">
                 <header>
-                    <h1>Please feel free to contact me: </h1>
+                    <h1>Please feel free to contact me: 
+                    <a href="https://github.com/JaclynShahan" target="_blank">
+                    <img className="imageSize" src={require("./images/GitHubIcon.jpg")}/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jaclyn-shahan-68a160138/" target="_blank">
+                    <img className="imageLinkedIn" src={require("./images/LinkedInIcon.png")}/>
+                    </a>
+                    </h1>
                     <Divider/>
                     <h3>Enter your info below to contact me. All messages get immediatly sent to my inbox at Jaclyndshahan@gmail.com</h3>
                     <Divider/>
@@ -28,15 +35,11 @@ class Contact extends Component {
                     <TextArea rows={4} placeholder="Leave me message..." className="message inputClass" />
                     <br></br>
                     <Button type="primary">Submit</Button>
+                
                 </div>
-                <footer>
-                    <a href="https://github.com/JaclynShahan" target="_blank">
-                    <img className="imageSize" src={require("./images/GitHubIcon.jpg")}/>
-                    </a>
-                    <a href="https://www.linkedin.com/in/jaclyn-shahan-68a160138/" target="_blank">
-                    <img className="imageLinkedIn" src={require("./images/LinkedInIcon.png")}/>
-                    </a>
-                </footer>
+                  
+                 
+                
                     
                 </form>
 

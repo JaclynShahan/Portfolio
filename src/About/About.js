@@ -15,7 +15,7 @@ class About extends Component {
         return (
             <div className="backgroundClass">
  
-            <Carousel className="carousel" dotPosition={dotPosition}>
+            <Carousel autoplay className="carousel" dotPosition={dotPosition}>
             <div>
               <img className="images" src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/60150255_10218163437853379_8579273649947672576_n.jpg?_nc_cat=103&_nc_ht=scontent-dfw5-2.xx&oh=241e6e21a0d9a70441e8d212092b93a7&oe=5D5A55EA" />
             </div>
