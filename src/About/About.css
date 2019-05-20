@@ -1,27 +1,63 @@
 @import '~antd/dist/antd.css';
-
-
+.aboutFlexBox {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+    align-content: stretch;
+    
+}
     .images {
         height: 70vh;
         width: 50vw;
     }
 
     .carousel {
-        margin-left: 30px;
-        padding-top: 50px;
+        margin-left: 35px;
+       padding-top: 20px;
+        height: 20vh;
+        width: 40vw;
+       
     }
 
     .resume {
-        margin-top: 50px;
         font-weight: bold;
         font-size: 30px;
         font-family: fantasy;
         color: #311f96;
-        margin-left: 30px;
+        margin-left: 60px;
       
       }
 
       .fileIcon {
           margin-left: 15px;
           color: #311f96;
+      }
+
+      .carouselForm {
+        position: static;
+        display: inline-block;
+        width: 49vw;
+        height: 83vh;
+        box-sizing: border-box;
+        padding: 30px 25px;
+        background-color: rgba(14, 14, 27, 0.664);
+        border-radius: 40px;
+       margin-left: 49%;
+       margin-right: 10%;
+       margin-top: 20px;
+      }
+      .aboutForm {
+        position: static;
+        display: inline-block;
+        width: 40vw;
+        height: 45vh;
+        box-sizing: border-box;
+        padding: 30px 25px;
+        background-color: rgba(14, 14, 27, 0.664);
+        border-radius: 40px;
+       margin-right: 10%;
+       margin-top: 20px;
+       color: whitesmoke;
       }
