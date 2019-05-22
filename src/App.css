@@ -32,36 +32,9 @@
     transform: rotate(360deg);
   }
 }
-/* .backgroundClass {
-background: linear-gradient(270deg, #0f5e9c, #2389da, #1ca3ec, #5abcd8, #74ccf4);
-background-size: 1000% 1000%;
-width: 100vw;
-height: 95vh;
--webkit-animation: AnimationName 30s ease infinite;
--moz-animation: AnimationName 30s ease infinite;
-animation: AnimationName 30s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-} */
+
 .topnav {
-  background: #3e7574;
-  background: -webkit-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
-  background: -moz-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
-  background: -o-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
-  background: linear-gradient(to bottom right, #4d4e4e 0%, #272c2a 100%);
+background:  rgba(14, 14, 27, 0.664);
   overflow: hidden;
 }
 
@@ -76,7 +49,6 @@ animation: AnimationName 30s ease infinite;
   font-size: 17px;
 }
 
-/* Add an active class to highlight the current page */
 .topnav:active {
   background-color: rgb(26, 155, 214);
   color:rgb(141, 231, 227);

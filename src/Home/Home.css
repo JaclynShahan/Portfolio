@@ -102,36 +102,7 @@ animation: AnimationName 20s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-.topnav {
-   
-    background: #3e7574;
-    background: -webkit-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
-    background: -moz-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
-    background: -o-linear-gradient(top left, #4d4e4e 0%, #272c2a 100%);
-    background: linear-gradient(to bottom right, #4d4e4e 0%, #272c2a 100%);
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Add an active class to highlight the current page */
-  .topnav:active {
-    background-color: rgb(26, 155, 214);
-    color:rgb(141, 231, 227);
-  }
-  .topnav a:hover {
-    background-color:  rgb(34, 143, 194);
-    color: rgb(252, 240, 240);
-  }
+
   .sider {
       background-color: lightslategray;
       width: 20vw;
