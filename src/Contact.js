@@ -1,15 +1,34 @@
 import React, {Component} from 'react';
 import './Contact.css';
 import {Input, Divider, Button} from 'antd';
+import axios from 'axios';
 
 class Contact extends Component {
     constructor() {
         super() 
         this.state = {
-
+            name: '',
+            email: '',
+            message: '',
+            sendStatus: 'true'
         }
     }
+    handleChange(e, type) {
+        this.setState({ [type]: e.target.value })
+      }
 
+      submitMessage(e) {
+        e.preventDefault()
+        axios.post("/api/sendEmail", {
+            name: this.state.name,
+            email: this.state.email,
+            message: this.state.message
+          })
+          .then(response => console.log(response))
+        e.target.reset()
+        console.log("sent")
+        this.setState({ sendStatus: "true" })
+      }
     render() {
         const { TextArea } = Input;
         return (
@@ -29,12 +48,27 @@ class Contact extends Component {
                     <Divider/>
                 </header>
                 <div className="inputBox">
-                    <Input className="inputName inputClass" size="large" placeholder="Name" />
+                    <Input 
+                    className="inputName inputClass" 
+                    size="large" 
+                    placeholder="Name"
+                    onChange={e => this.handleChange(e, 'name')}
+                    />
                 
-                    <Input className="inputName inputClass" size="large" placeholder="Email" />
-                    <TextArea rows={4} placeholder="Leave me message..." className="message inputClass" />
+                    <Input 
+                    className="inputName inputClass" 
+                    size="large" 
+                    placeholder="Email"
+                    onChange={e => this.handleChange(e, 'email')}
+                    />
+                    <TextArea 
+                    rows={4} 
+                    placeholder="Leave me message..." 
+                    className="message inputClass"
+                    onChange={e => this.handleChange(e, 'message')}
+                    />
                     <br></br>
-                    <Button type="primary">Submit</Button>
+                    <Button onSubmit={e => this.submitMessage(e)} type="primary">Submit</Button>
                 
                 </div>
                   

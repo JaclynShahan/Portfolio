@@ -2,11 +2,12 @@ const express = require('express');
 const cors = require('cors');
 const { json } = require('body-parser');
 require('dotenv').config();
+const axios = require('axios');
 
 const send = require("gmail-send")({
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASSWORD,
-    to: "jaclyndshahan@gmail.com"
+    to: "shahanjaclyn@gmail.com"
   })
 
 const port = 3080;
