@@ -49,7 +49,7 @@ class Home extends Component {
         <h2 className="h2">"Your task is not to foresee the future, but enable it"</h2>
             <h4 className="h4">-Antonie De Saint Exupery-</h4>
         <Divider />
-        <img className="image" src="https://www.memecreator.org/static/images/memes/4571793.jpg"/>
+        <img className="image" src="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmPsdytcrdqhmB3KcQogecqogMzDsz4ax6jHXBNiA4GivH/aeroplane-airplane-aviation-6511-min.png"/>
             </Content>
       </Layout>
     </Layout>
