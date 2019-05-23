@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Home.css';
-import {Link} from 'react-router-dom';
 import {Layout, Divider, Icon} from 'antd';
 class Home extends Component {
     constructor() {
@@ -12,13 +11,9 @@ class Home extends Component {
 
     render() {
         const {
-            Header, Footer, Sider, Content,
+           Sider, Content,
           } = Layout;
 
-          let styles = {
-              height: '50%',
-              width: '50%',
-          }
         return(
         
     <Layout className="clearColor">

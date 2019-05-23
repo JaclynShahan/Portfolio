@@ -13,7 +13,7 @@ class About extends Component {
    render() {
           const { dotPosition } = this.state;
         return (
-            <div className="backgroundClass aboutGrid">
+            <div className="aboutGrid">
             <h2 className="aboutForm paragraph clearColor">
             My name is Jaclyn Shahan. I am a motivated learner hoping to transfer from Management and Billing to a career in full-stack web development. 
             I have experience with React, Redux, Router, Node/Express, SQL/PostgreSQl, and RESTful API's.

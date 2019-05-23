@@ -1,13 +1,5 @@
 @import '~antd/dist/antd.css';
-.aboutFlexBox {
-  display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: baseline;
-    align-content: stretch;
-    
-}
+
     .images {
         height: 50vh;
         width: 20vw;

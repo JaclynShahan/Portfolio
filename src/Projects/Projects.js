@@ -14,13 +14,13 @@ class Projects extends Component {
         return (
             <div>
                 <a href="chriswf.com" target="_blank">
-                <img className="project1" src={require("./images/Patient-Profile.png")} />
+                <img className="project1" src={require("./Patient-Profile.png")} />
                 </a>
                 <a href="chriswf.com" target="_blank"> 
-                <img className="project2" src={require("./images/Parent-Social-Media.png")} />
+                <img className="project2" src={require("./Parent-Social-Media.png")} />
                 </a>
                 <a href="chriswf.com" target="_blank">
-                <img className="project3" src={require("./images/Rick-And-Morty.png")} />
+                <img className="project3" src={require("./Rick-And-Morty.png")} />
                 </a>
             </div>
 
