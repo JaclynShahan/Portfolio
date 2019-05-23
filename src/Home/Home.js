@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Home.css';
 import {Link} from 'react-router-dom';
-import {Layout, Divider} from 'antd';
+import {Layout, Divider, Icon} from 'antd';
 class Home extends Component {
     constructor() {
         super()
@@ -46,10 +46,9 @@ class Home extends Component {
         <br></br>
         <Divider />
         <h1 className="h1">Hi, I'm Jaclyn...</h1>
-        <h2 className="h2">"Your task is not to foresee the future, but enable it"</h2>
-            <h4 className="h4">-Antonie De Saint Exupery-</h4>
+        <h2 className="h2"><Icon type="thunderbolt"/> Full-Stack Web Developer <Icon type="thunderbolt"/></h2>
         <Divider />
-        <img className="image" src="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmPsdytcrdqhmB3KcQogecqogMzDsz4ax6jHXBNiA4GivH/aeroplane-airplane-aviation-6511-min.png"/>
+        <img className="image border" src="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmPsdytcrdqhmB3KcQogecqogMzDsz4ax6jHXBNiA4GivH/aeroplane-airplane-aviation-6511-min.png"/>
             </Content>
       </Layout>
     </Layout>

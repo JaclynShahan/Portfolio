@@ -39,16 +39,16 @@
 .h2 {
 
     font-family: fantasy;
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold italic;
     color: whitesmoke;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: space-around;
+       margin-left: 30%;
         align-items: center;
         align-content: center;
-    margin-top: 20px;
+    
     
 }
 .h4 {
@@ -121,10 +121,18 @@ animation: AnimationName 20s ease infinite;
   }
 
   .image {
-      height: 45%;
-      width: 45%;
-      margin-left: 28%;
+      height: 48%;
+      width: 48%;
+      margin-left: 27%;
+      border-radius: 40px;
       margin-top: 20px;
+    
+      
+  }
+  .border {
+    border-style: solid;
+    border-color: #0f5e9c;
+    border-radius: 40px;
   }
 
   .quote {
@@ -246,3 +254,5 @@ animation: AnimationName 20s ease infinite;
       height: 80px;
       width: 90px;
   }
+
+  
