@@ -13,11 +13,25 @@ class Contact extends Component {
             sendStatus: 'true'
         }
     }
-    handleChange(e, type) {
-        this.setState({ [type]: e.target.value })
+    updateName( name ) {
+        this.setState({ name });
       }
-
-      submitMessage(e) {
+    
+      updateEmail( email ) {
+        this.setState({ email });
+      }
+      updateMessage( message ) {
+        this.setState({ message });
+      }
+  
+    onClear = () => {
+        this.setState({
+            name: '',
+            email: '',
+            message: ''
+        })
+    }
+      submitMessage = (e) => {
         e.preventDefault()
         axios.post("/api/sendEmail", {
             name: this.state.name,
@@ -25,10 +39,13 @@ class Contact extends Component {
             message: this.state.message
           })
           .then(response => console.log(response))
-        e.target.reset()
+       
+     
         console.log("sent")
         this.setState({ sendStatus: "true" })
+        this.onClear()
       }
+
     render() {
         const { TextArea } = Input;
         return (
@@ -37,10 +54,10 @@ class Contact extends Component {
                 <header>
                     <h1>Please feel free to contact me: 
                     <a href="https://github.com/JaclynShahan" target="_blank">
-                    <img className="imageSize" src={require("./images/GitHubIcon.jpg")}/>
+                    <img className="imageSize" src={require("./GitHubIcon.jpg")}/>
                     </a>
                     <a href="https://www.linkedin.com/in/jaclyn-shahan-68a160138/" target="_blank">
-                    <img className="imageLinkedIn" src={require("./images/LinkedInIcon.png")}/>
+                    <img className="imageLinkedIn" src={require("./LinkedInIcon.png")}/>
                     </a>
                     </h1>
                     <Divider/>
@@ -52,23 +69,26 @@ class Contact extends Component {
                     className="inputName inputClass" 
                     size="large" 
                     placeholder="Name"
-                    onChange={e => this.handleChange(e, 'name')}
+                    value={this.state.name}
+                    onChange={(e) => this.updateName(e.target.value)}
                     />
                 
                     <Input 
                     className="inputName inputClass" 
                     size="large" 
                     placeholder="Email"
-                    onChange={e => this.handleChange(e, 'email')}
+                    value={this.state.email}
+                    onChange={(e) => this.updateEmail(e.target.value)}
                     />
                     <TextArea 
                     rows={4} 
                     placeholder="Leave me message..." 
                     className="message inputClass"
-                    onChange={e => this.handleChange(e, 'message')}
+                    value={this.state.message}
+                    onChange={(e) => this.updateMessage(e.target.value)}
                     />
                     <br></br>
-                    <Button onSubmit={e => this.submitMessage(e)} type="primary">Submit</Button>
+                    <Button onClick={e => this.submitMessage(e)} type="primary">Submit</Button>
                 
                 </div>
                   

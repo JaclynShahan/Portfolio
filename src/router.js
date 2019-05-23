@@ -3,7 +3,7 @@ import {Route, Switch} from 'react-router-dom';
 import Home from './Home/Home.js';
 import About from './About/About.js';
 import Projects from './Projects.js';
-import Contact from './Contact.js';
+import Contact from './Contact/Contact.js';
 
 
 export default (

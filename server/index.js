@@ -5,8 +5,8 @@ require('dotenv').config();
 const axios = require('axios');
 
 const send = require("gmail-send")({
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASSWORD,
+    user: process.env.username,
+    pass: process.env.password,
     to: "shahanjaclyn@gmail.com"
   })
 
