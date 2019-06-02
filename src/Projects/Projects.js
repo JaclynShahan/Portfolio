@@ -16,7 +16,7 @@ class Projects extends Component {
         <a href='parentforum.jaclynds.com' target='_blank'>
           <img
             className='project2'
-            src={require('./Parent-Social-Media.png')}
+            src={require('./ParentForum.png')}
           />
         </a>
         <a href='ricknmorty.jaclynds.com' target='_blank'>
