@@ -1,11 +1,10 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 .App {
   text-align: center;
 }
 
-
 .topnav {
-background:  rgba(14, 14, 27, 0.664);
+  background: rgba(14, 14, 27, 0.664);
   overflow: hidden;
 }
 
@@ -21,15 +20,13 @@ background:  rgba(14, 14, 27, 0.664);
 
 .topnav:active {
   background-color: rgb(26, 155, 214);
-  color:rgb(141, 231, 227);
+  color: rgb(141, 231, 227);
 }
 .topnav a:hover {
-  background-color:  rgb(34, 143, 194);
+  background-color: rgb(34, 143, 194);
   color: rgb(252, 240, 240);
 }
 
-
 .clearColor {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 }
-

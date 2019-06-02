@@ -1,70 +1,66 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
-    .images {
-        height: 50vh;
-        width: 20vw;
-    }
+.images {
+  height: 50vh;
+  width: 20vw;
+}
 
+.resume {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: fantasy;
+  color: #311f96;
+  margin-left: 150px;
+  margin-top: 45%;
+}
 
-    .resume {
-        font-weight: bold;
-        font-size: 30px;
-        font-family: fantasy;
-        color: #311f96;
-        margin-left: 150px;
-        margin-top: 45%;
-      
-      }
+.fileIcon {
+  margin-left: 15px;
+  color: #311f96;
+}
 
-      .fileIcon {
-          margin-left: 15px;
-          color: #311f96;
-      }
+.carouselForm {
+  position: absolute;
+  display: inline-block;
+  width: 30vw;
+  height: 65vh;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-left: 70px;
+  background-color: rgba(14, 14, 27, 0.664);
+  border-radius: 40px;
+  margin-left: 60%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+.aboutForm {
+  position: absolute;
+  display: inline-block;
+  width: 45vw;
+  height: 50vh;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgba(14, 14, 27, 0.664);
+  border-radius: 40px;
+  margin-right: 10%;
+  margin-top: 80px;
+  color: whitesmoke;
+  margin-left: 85px;
+}
 
-      .carouselForm {
-        position: absolute;
-        display: inline-block;
-        width: 30vw;
-        height: 65vh;
-        box-sizing: border-box;
-        padding-top: 60px;
-        padding-left: 70px;
-        background-color: rgba(14, 14, 27, 0.664);
-        border-radius: 40px;
-       margin-left: 60%;
-       margin-right: 20%;
-       margin-top: 5%;
-      }
-      .aboutForm {
-        position: absolute;
-        display: inline-block;
-        width: 45vw;
-        height: 50vh;
-        box-sizing: border-box;
-       padding-top: 60px;
-       padding-left: 50px;
-       padding-right: 50px;
-        background-color: rgba(14, 14, 27, 0.664);
-        border-radius: 40px;
-       margin-right: 10%;
-       margin-top: 80px;
-       color: whitesmoke;
-       margin-left: 85px;
-      }
+.aboutGrid {
+  display: grid;
+  grid-gap: 100px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
 
-      .aboutGrid {
-        display: grid;
-        grid-gap: 100px;
-        grid-column-start: 1;
-        grid-column-end: 3;
+.paragraph {
+  grid-column: 1 / 2;
+}
 
-      }
-
-      .paragraph {
-        grid-column: 1 / 2;
-      }
-
-      .pics {
-        grid-column: 2 / 3;
-
-      }
+.pics {
+  grid-column: 2 / 3;
+}

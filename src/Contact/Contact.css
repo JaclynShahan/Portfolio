@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 .form {
   position: relative;
   display: inline-block;
@@ -8,50 +8,45 @@
   padding: 30px 25px;
   background-color: whitesmoke;
   border-radius: 40px;
- margin-top: 60px;
- margin-left: 15%;
+  margin-top: 60px;
+  margin-left: 15%;
 }
 
 .inputName {
-    width: 40%;
-    margin-bottom: 30px;
-    color: navy;
+  width: 40%;
+  margin-bottom: 30px;
+  color: navy;
 }
 .inputBox {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
 }
 
 .message {
-    position: relative;
-    display: inline-block;
-    width: 35vw;
-    height: 25vh;
-    box-sizing: border-box;
-    padding: 20px 25px;
-    background-color: white;
-
-  
+  position: relative;
+  display: inline-block;
+  width: 35vw;
+  height: 25vh;
+  box-sizing: border-box;
+  padding: 20px 25px;
+  background-color: white;
 }
 .inputClass {
-    background-color: rgb(192, 209, 221);
-
+  background-color: rgb(192, 209, 221);
 }
 
-    .imageSize {
-        width: 60px;
-        height: 50px;
-        margin-left: 250px;
-    }
+.imageSize {
+  width: 60px;
+  height: 50px;
+  margin-left: 250px;
+}
 
-
-    .imageLinkedIn {
-        width: 80px;
-        height: 50px;
-        margin-left: 20px;
-
-    }
+.imageLinkedIn {
+  width: 80px;
+  height: 50px;
+  margin-left: 20px;
+}
