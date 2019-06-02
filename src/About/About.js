@@ -40,7 +40,7 @@ class About extends Component {
           <h2 className='resume'>
             View/Download my resume here:{' '}
             <a
-              href='https://docs.google.com/document/d/1sso2EnUPQdD25h3Zebjii-kuGHDJYoWZ6USOazC7cVk/'
+              href='https://docs.google.com/document/d/1sso2EnUPQdD25h3Zebjii-kuGHDJYoWZ6USOazC7cVk/edit?usp=sharing'
               target='_blank'
             >
               <Icon className='fileIcon' type='file' />{' '}

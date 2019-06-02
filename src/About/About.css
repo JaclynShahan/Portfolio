@@ -2,16 +2,18 @@
 
 .images {
   height: 50vh;
-  width: 20vw;
+  width: 17vw;
+  background-size: auto;
 }
 
 .resume {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
   font-family: fantasy;
   color: #311f96;
-  margin-left: 150px;
   margin-top: 45%;
+  position: relative;
+  margin-left: 57%;
 }
 
 .fileIcon {
@@ -22,32 +24,34 @@
 .carouselForm {
   position: absolute;
   display: inline-block;
-  width: 30vw;
-  height: 65vh;
+  width: 25vw;
   box-sizing: border-box;
-  padding-top: 60px;
-  padding-left: 70px;
+  padding-left: 4vw;
   background-color: rgba(14, 14, 27, 0.664);
   border-radius: 40px;
   margin-left: 60%;
   margin-right: 20%;
   margin-top: 5%;
+  background-size: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .aboutForm {
   position: absolute;
-  display: inline-block;
-  width: 45vw;
-  height: 50vh;
+  font-size: 2em;
+  width: 40vw;
   box-sizing: border-box;
   padding-top: 60px;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 50px;
   background-color: rgba(14, 14, 27, 0.664);
   border-radius: 40px;
   margin-right: 10%;
   margin-top: 80px;
   color: whitesmoke;
   margin-left: 85px;
+  background-size: auto;
 }
 
 .aboutGrid {

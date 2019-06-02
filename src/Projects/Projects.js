@@ -9,17 +9,17 @@ class Projects extends Component {
 
   render () {
     return (
-      <div>
-        <a href='chriswf.com' target='_blank'>
+      <div className="projectContainer">
+        <a href='patients.jaclynds.com' target='_blank'>
           <img className='project1' src={require('./Patient-Profile.png')} />
         </a>
-        <a href='chriswf.com' target='_blank'>
+        <a href='parentforum.jaclynds.com' target='_blank'>
           <img
             className='project2'
             src={require('./Parent-Social-Media.png')}
           />
         </a>
-        <a href='chriswf.com' target='_blank'>
+        <a href='ricknmorty.jaclynds.com' target='_blank'>
           <img className='project3' src={require('./Rick-And-Morty.png')} />
         </a>
       </div>

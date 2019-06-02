@@ -16,8 +16,8 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  align-items: left;
-  align-content: left;
+  align-items: center;
+  align-content: center;
   margin-top: 50px;
 }
 .h2 {
@@ -28,9 +28,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin-left: 30%;
+  margin-left: 36%;
   align-items: center;
   align-content: center;
+  align-self: center;
 }
 .h4 {
   font-family: fantasy;
@@ -113,12 +114,17 @@
   display: grid;
   grid-column-start: 1;
   grid-column-end: 3;
-  grid-column-gap: 90px;
-  grid-row-gap: 90px;
+ 
   grid-row-start: 1;
   grid-row-end: 14;
   grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
   background-color: rgba(14, 14, 27, 0.664);
+  height: 95vh;
+  width: 40vh;
+  padding-top: 20px;
+  overflow: hidden;
+  background-size: auto;
 }
 
 .item1 {
