@@ -47,55 +47,7 @@
   margin-top: 5px;
 }
 
-.backgroundClass {
-  background: linear-gradient(
-    270deg,
-    #0f5e9c,
-    #2389da,
-    #1ca3ec,
-    #5abcd8,
-    #74ccf4
-  );
-  background-size: 1000% 1000%;
-  width: 100vw;
-  height: 100vh;
-  -webkit-animation: AnimationName 20s ease infinite;
-  -moz-animation: AnimationName 20s ease infinite;
-  animation: AnimationName 20s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+
 
 .image {
   height: 48%;

@@ -13,6 +13,7 @@ class About extends Component {
   render () {
     const { dotPosition } = this.state
     return (
+      <div className="aboutContainer">
       <div className='aboutGrid'>
         <h2 className='aboutForm paragraph clearColor'>
           My name is Jaclyn Shahan. I am a motivated learner hoping to transfer
@@ -47,6 +48,7 @@ class About extends Component {
             </a>{' '}
           </h2>
         </div>
+      </div>
       </div>
     )
   }

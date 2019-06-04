@@ -49,7 +49,7 @@ class Contact extends Component {
   render () {
     const { TextArea } = Input
     return (
-      <div>
+      <div className="contactContainer">
         <form className='form'>
           <header>
             <h1>

@@ -68,3 +68,8 @@
 .pics {
   grid-column: 2 / 3;
 }
+
+.aboutContainer {
+  overflow-y: scroll;
+  height: 95vh;
+}

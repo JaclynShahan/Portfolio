@@ -53,3 +53,7 @@
   height: 50px;
   margin-left: 20px;
 }
+.contactContainer {
+  overflow-y: scroll;
+  height: 95vh;
+}
