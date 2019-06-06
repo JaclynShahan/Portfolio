@@ -10,16 +10,16 @@ class Projects extends Component {
   render () {
     return (
       <div className="projectContainer">
-        <a href="http://patients.jaclynds.com" target='_blank'>
+        <a href="http://patients.jaclynds.com" target='_blank' rel="noopener noreferrer">
           <img className='project1' src={require('./Patient-Profile.png')} />
         </a>
-        <a href="http://parentforum.jaclynds.com" target='_blank'>
+        <a href="http://parentforum.jaclynds.com" target='_blank' rel="noopener noreferrer">
           <img
             className='project2'
             src={require('./ParentForum.png')}
           />
         </a>
-        <a href="http://ricknmorty.jaclynds.com" target='_blank'>
+        <a href="http://ricknmorty.jaclynds.com" target='_blank' rel="noopener noreferrer">
           <img className='project3' src={require('./Rick-And-Morty.png')} />
         </a>
       </div>
