@@ -38,7 +38,7 @@
 }
 .aboutForm {
   position: absolute;
-  font-size: 2em;
+  display: inline-block;
   width: 40vw;
   box-sizing: border-box;
   padding-top: 60px;
@@ -54,6 +54,8 @@
   background-size: auto;
 }
 
+
+
 .aboutGrid {
   display: grid;
   grid-gap: 100px;
@@ -63,6 +65,7 @@
 
 .paragraph {
   grid-column: 1 / 2;
+  font-size: 1.75em;
 }
 
 .pics {
