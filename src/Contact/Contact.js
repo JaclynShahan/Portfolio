@@ -58,7 +58,7 @@ class Contact extends Component {
                 <img className='imageSize' src={require('./GitHubIcon.jpg')} />
               </a>
               <a
-                href='https://www.linkedin.com/in/jaclyn-shahan-68a160138/'
+                href='https://www.linkedin.com/in/jaclynshahan/'
                 target='_blank'
               >
                 <img
